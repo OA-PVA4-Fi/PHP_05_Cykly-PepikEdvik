@@ -8,5 +8,19 @@
 
 //reseni
 
+$months = ['leden', 'únor', 'březen', 'duben', 'květen', 'červen', 'červenec', 'srpen', 'září', 'říjen', 'listopad', 'prosinec'];
+
+echo '<h3> Měsíce: </h3>';
+
+foreach ($months as $key => $mesic) {
+    echo $mesic.'<br />';
+}
+
+echo '<h3>Měsíc od 6-12</h3>';
+
+for ($i = 6; $i < 12; $i++) {
+    echo $months[$i] . "<br>";
+  }
+
 ?>
 
